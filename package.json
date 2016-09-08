@@ -1,0 +1,31 @@
+{
+  "name": "backbone-webpack-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Webpack build starting...\" && webpack",
+    "start": "echo \"Webpack dev-server starting...\" && webpack-dev-server"
+  },
+  "author": "Daniel Kovacs",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.22.0",
+    "node-sass": "^3.8.0",
+    "postcss-loader": "^0.9.1",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "backbone": "^1.3.3",
+    "jquery": "^3.0.0",
+    "normalize-css": "^2.3.1",
+    "underscore": "^1.8.3"
+  }
+}

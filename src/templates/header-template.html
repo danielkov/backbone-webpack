@@ -1,0 +1,10 @@
+<header class="header">
+   <div class="container">
+      <h3><%=title%></h3>
+      <nav>
+         <% _.each(menuItems, function(item){ %>
+            <a href="<%=item.link%>"><%=item.name%></a>
+         <% }) %>
+      </nav>
+   </div>
+</header>
